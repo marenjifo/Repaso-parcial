@@ -19,9 +19,9 @@ function cargarPagina(){
         'http://www.clker.com/cliparts/2/8/4/5/1285351927526757201baby-chicken.jpg'
     ];
     var nombres=[
-        'Juan',
-        'Aleja',
-        'Maria'
+        'Calex',
+        'Ani',
+        'Aleja'
     ];
     var intervalo;
     
@@ -85,7 +85,7 @@ function cargarPagina(){
     function tiempo(){
         if (!intervalo) {
             intervalo = setInterval(perfilAuto, 1000);
-            btn_crearAuto.innerHTML = "Pausa";
+            btn_crearAuto.innerHTML = "Pausar";
         } else {
             clearInterval(intervalo);
             intervalo=null;
